@@ -1,0 +1,134 @@
+.slider-image {
+    height: 500px;
+    object-fit: cover;
+}
+.slider-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.top-picks img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits into the circle */
+}
+.offer-banner {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.india-furniture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px; /* Adds space between images */
+}
+
+.india-furniture .row {
+    margin-bottom: 30px; /* Adds space between rows of images */
+}
+
+@media (max-width: 768px) {
+    .slider-image {
+        height: 300px;
+    }
+    .slider-caption {
+        padding: 10px;
+    }
+    .slider-caption h1 {
+        font-size: 1.5rem;
+    }
+    .slider-caption p {
+        font-size: 0.9rem;
+    }
+
+    /* On mobile, make images take 100% of width */
+    .india-furniture img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #bestsellers-slider .carousel-item img {
+    height: 200px; /* Adjust height for smaller screens */
+}
+#bestsellers-slider .carousel-item .col-md-4 {
+    flex: 0 0 100%; /* Show 1 image per slide on mobile */
+}
+}
+
+/* Best-Sellers Carousel Styling */
+#bestsellers-slider .carousel-item img {
+object-fit: cover;
+border-radius: 8px;
+height: 300px; /* Adjust height as needed */
+}
+
+/* Decor Section Styling */
+.decor-card {
+background: #fff;
+border-radius: 12px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+padding: 15px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.decor-card:hover {
+transform: translateY(-5px);
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.decor-img {
+width: 100%;
+border-radius: 8px;
+object-fit: cover;
+}
+
+.decor-card h5 {
+font-size: 16px;
+font-weight: bold;
+color: #333;
+}
+
+/* Responsive Layout for Mobile */
+@media (max-width: 768px) {
+.decor-card {
+margin-bottom: 20px;
+}
+}
+
+/* .container img {
+border-radius: 12px;
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+max-width: 100%;
+height: auto;
+object-fit: cover;
+} */
+
+/* Footer Styling */
+footer {
+background-color: #343a40;
+color: #f8f9fa;
+}
+
+footer a {
+color: #f8f9fa;
+}
+
+footer a:hover {
+color: #ffc107;
+text-decoration: underline;
+}
+
+footer .social-icons a {
+font-size: 1.5rem;
+}
+
+footer .social-icons a:not(:last-child) {
+margin-right: 15px;
+}
